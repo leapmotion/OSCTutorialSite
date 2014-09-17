@@ -87,15 +87,14 @@ video {
 
 .header h1 {
   display: inline;
-  margin-left: 30px;
+  margin-left: 10px;
   color: #999;
   vertical-align: middle;
   text-align: left;
 }
 
 .header  h2 {
-  margin-left: 126px;
-  margin-top: -20px;
+  margin-top: 10px;
 }
 
 .descBox {
