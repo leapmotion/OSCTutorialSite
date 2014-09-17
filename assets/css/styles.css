@@ -1,0 +1,139 @@
+body {
+  font-family: "freightsans_book", "myriad-pro", 'Helvetica Neue', Helvetica, Arial, 'Lucida Grande', sans-serif;
+  margin: 0 0 0 0;
+  padding: 0 0 0 0;
+}
+
+h1 {
+  font-size: 2.2em;
+  font-weight: normal;
+}
+
+h2 {
+  font-weight: lighter;
+  color: #777;
+  font-style: italic;
+}
+
+h3 {
+  color: #5daa00;
+  font-size: 2em;
+  margin-top: 0;
+  margin-bottom: 0;
+  font-weight: normal;
+}
+
+a {
+  color: #5daa00;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+ul {
+  padding-left: 0px;
+}
+
+li {
+  font-family: "freightsans_prolight",Helvetica,Arial,sans-serif;
+  font-weight: lighter;
+  font-size: 14px;
+  color: #000;
+  margin-bottom: 20px;
+  list-style: none;
+  margin-left: 0;
+}
+
+video {
+  width: 45%;
+  float: left;
+  margin-top: 20px;
+}
+
+.filledContainer {
+  width: 100%;
+  padding: 30px 10px 30px 10px;
+}
+
+.gradient {
+  background: -webkit-linear-gradient(right, #d9d9d9 0%, #fff 50%, #d9d9d9 100%); /* For Safari 5.1 to 6.0 */
+  background: -o-linear-gradient(right, #d9d9d9 0%, #fff 50%, #d9d9d9 100%); /* For Opera 11.1 to 12.0 */
+  background: -moz-linear-gradient(right, #d9d9d9 0%, #fff 50%, #d9d9d9 100%); /* For Firefox 3.6 to 15 */
+  background: linear-gradient(to right, #d9d9d9 0%, #fff 50%, #d9d9d9 100%); /* Standard syntax */
+}
+
+.const-width-box {
+  width: 960px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.header {
+  width: 100%;
+  text-align: center;
+  min-height: 140px;
+  background-color: #3B3C42;
+  padding-top: 30px;
+}
+
+.header img {
+  display: inline;
+  vertical-align: middle;
+  margin-left: -40px;
+}
+
+.header h1 {
+  display: inline;
+  margin-left: 30px;
+  color: #999;
+  vertical-align: middle;
+}
+
+.header  h2 {
+  margin-left: 150px;
+  margin-top: -20px;
+}
+
+.descBox {
+  width: 55%;
+  float: left;
+}
+
+.container {
+  width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.footer {
+  text-align: center;
+}
+
+.footer ul {
+  list-style: none;
+}
+
+.footer ul li {
+  display: inline;
+  margin-right: 15px;
+}
+
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
