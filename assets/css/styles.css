@@ -76,7 +76,7 @@ video {
   text-align: center;
   min-height: 140px;
   background-color: #3B3C42;
-  padding-top: 30px;
+  padding-top: 17px;
   border-bottom: solid #81D41D 2px;
 }
 
@@ -87,15 +87,14 @@ video {
 
 .header h1 {
   display: inline;
-  margin-left: 30px;
+  margin-left: 10px;
   color: #999;
   vertical-align: middle;
   text-align: left;
 }
 
 .header  h2 {
-  margin-left: 126px;
-  margin-top: -20px;
+  margin-top: 10px;
 }
 
 .descBox {
