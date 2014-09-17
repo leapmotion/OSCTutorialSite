@@ -76,12 +76,12 @@ video {
   min-height: 140px;
   background-color: #3B3C42;
   padding-top: 30px;
+  border-bottom: solid #81D41D 2px;
 }
 
 .header img {
   display: inline;
   vertical-align: middle;
-  margin-left: -40px;
 }
 
 .header h1 {
@@ -89,10 +89,11 @@ video {
   margin-left: 30px;
   color: #999;
   vertical-align: middle;
+  text-align: left;
 }
 
 .header  h2 {
-  margin-left: 150px;
+  margin-left: -20px;
   margin-top: -20px;
 }
 
